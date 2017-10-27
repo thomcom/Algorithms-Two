@@ -20,7 +20,7 @@ Incorrect diagram of O(n log n)
   - the distances I was getting were usually less than 5% difference and as I have read, NN gets within 25% of the theoretical limit.
 4. How can you improve NN?
   - By starting at a pre-determined city instead of first calculating the shortest distance between any two cities
-  - To minimize the possible number of cities to check, sorting
+  - Minimize the possible number of cities to check prior to running the nearest neighbor algorithm, eliminating the majority of cities which would be likely to be farther than what could be considered "nearest" - though I suppose this would involve an exhaustive comparison of neighboring cities... but once that is done, stick the results in a look up table.
 
 # kNN TSP assignment
 
