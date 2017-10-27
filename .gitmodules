@@ -1,0 +1,3 @@
+[submodule "usaCitiesJSON"]
+	path = usaCitiesJSON
+	url = https://github.com/mixelpixel/usaCitiesJSON.git
